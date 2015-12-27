@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-include('/Model/Ticket.php');
+include('./Model/Ticket.php');
 $tckt = new Ticket();
 $title = "Cancel Tickets";
 $content = '<form method="post" action="" class="Text">
