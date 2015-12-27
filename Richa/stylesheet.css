@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Dec, 2015, 1:47:13 PM
+    Author     : Richa
+*/
+
+body{
+    background-color: graytext;
+}
+.main{
+    margin: 0 auto;
+    width: 1080px;
+    align-content: center;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.division{
+    float: left;
+    width: 500px;
+    height: 200px;
+    border: 2px;
+    margin: 5px;
+    background-color: white;
+}
+.Text{
+    margin: 0 auto;
+    align-content: center;
+    width: 1080px;
+}
+
+.mainImg{
+   width: 1080px; 
+   height : 500px;
+}
+
+.mainPageContent{
+    margin: 0 auto;
+    align-content: center;
+    width: 1080px;
+}
+
+.Text{
+    padding-left: 25%;
+    margin: 0 auto;
+    align-content: center;
+    width : 70%;
+    font-size: 20px;    
+    color: #49A3FF;
+}
+
+.Small{
+    color: #49A3FF;
+    padding-left: 40px; 
+}
+
+.Small2{
+    color: #ff00ff;
+    padding-left: 40px; 
+}
+.headerImg{
+   align-content: center;
+   width: 1080px;
+   
+}
+
+nav{
+    height: 35px;
+    margin: 0 auto;
+}
+
+nav ul a{
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+#nav
+{	margin: 0;
+	padding: 0;
+	z-index: 30}
+
+#nav li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+#nav li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 170px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none}
+
+#nav li a:hover
+{	background: #49A3FF}
+
+#nav div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#nav div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #EAEBD8;
+		color: #2875DE;
+		}
+
+	#nav div a:hover
+	{	background: #49A3FF;
+		color: #FFF}
+
